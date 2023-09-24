@@ -1,0 +1,51 @@
+
+
+/*Usar BEM*/
+/*Usar REM*/
+
+.post {
+  width: 25%;
+  display: inline-block;
+  background-color: rgba(242, 216, 216, 0.993);
+  margin: 3.12rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.5rem;
+
+}
+
+.post__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin: 1rem;
+}
+
+.post__container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.post__container--image {
+  width:8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__title {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.post__parrafo {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
